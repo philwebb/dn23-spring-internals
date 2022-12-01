@@ -8,6 +8,7 @@ class ApplicationConfiguration {
 
 	@Bean
 	public HelloMessageProvider messageProvider() {
+		System.err.println(">>>>>> Made it");
 		return new HelloMessageProvider();
 	}
 
